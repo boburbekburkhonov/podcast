@@ -28,6 +28,28 @@
         text-decoration: none;
     }
 
+    &__host {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 10px 27px;
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #1C1B1E;
+        background-color: #FFFFFF;
+        border: 1px solid #1C1B1E;
+        border-radius: 40px;
+    }
+
+    &__host:hover {
+        opacity: 0.8;
+    }
+
+    &__host:active {
+        opacity: 0.4;
+    }
+
     &-pink {
         padding: 13px 30px;
         text-decoration: none;
@@ -47,5 +69,11 @@
 
     &-pink:active {
         opacity: 0.4;
+    }
+
+    &__touch {
+        width: 148px;
+        border: none;
+        border-radius: 5px;
     }
 }

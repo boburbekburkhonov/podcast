@@ -1,1 +1,131 @@
 // bu yerda footer bor
+.footer {
+    padding-bottom: 26px;
+
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 52px;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__link:hover {
+        opacity: 0.8;
+    }
+
+    &__link:active {
+        opacity: 0.4;
+    }
+
+    &__desc {
+        width: 380px;
+        margin: 0;
+        margin-top: 12px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #1C1B1E;
+        opacity: 0.6;
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item + &__item {
+        margin-top: 13px;
+    }
+
+    &__list-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        opacity: 0.7;
+    }
+
+    &__list-link:hover {
+        opacity: 0.8;
+    }
+
+    &__list-link:active {
+        opacity: 0.4;
+    }
+
+    &__list-link-active {
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        opacity: 1;
+    }
+
+    &__item-width {
+        width: 162px;
+    }
+
+    &__sites-link {
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    &__sites-link:hover {
+        opacity: 0.8;
+    }
+
+    &__sites-link:active {
+        opacity: 0.4;
+    }
+
+    &__sites-link-active::after {
+        content: "";
+        display: inline-block;
+        background-image: url(../images/nuqtablack.png);
+        width: 4px;
+        height: 4px;
+        position: relative;
+        top: -1px;
+        margin-right: 22px;
+        margin-left: 24px;
+    }
+
+    &__href {
+        margin-top: 17px;
+        margin-bottom: 28px;
+    }
+
+    &__last-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__last-desc {
+        margin: 0;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+        opacity: 0.7;
+    }
+
+    &__last-desc-weight {
+        margin: 0;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+}
